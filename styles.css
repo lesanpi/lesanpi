@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	overflow-x: hidden;
+	
 	background-color: #570093;
 	font-family: 'Fjalla One', sans-serif;
 
@@ -19,7 +19,7 @@ a{
 }
 .nav-main p {
 	font-size: 25px;
-	margin: 0 0 0 15px;
+	margin: 0 0 0 1%;
 	color: white;
 }
 
@@ -28,7 +28,7 @@ a{
 	color: white;
 	display: flex;
 	align-items: center;
-	margin: 0 15px 0 0;
+	margin: 0 1% 0 0;
 	
 }
 
@@ -47,27 +47,29 @@ a{
 	text-align: center;
 }
 .main-text{
-	width: 30%;
+	width: 40vw;
 
 }
 .section{
-	width: 100%;
-	
-	display: block;
-	padding: 10px 30px;
+
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px 20px;
 }
+
 .section-2{
-	width: 100%;
-	height: 100px;
-	display: block;
-	padding: 10px 30px;
+	margin-top: 50px;
+	padding: 10px 0px;
 	background-color: #3E0068;
 }
 .section-inf{
-	
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 }
 .section-item{
 	height: 300px;
@@ -79,6 +81,9 @@ a{
 	justify-content: center;
 	background-position: center;
 	background-size: cover;
+}
+.section-title{
+	font-size: 23px;
 }
 #android{
 	background-image: url('background.jpg');
@@ -110,4 +115,51 @@ a{
 	color: gold;
 	display: inline;
 	text-align: left;
+}
+.gold-2 {
+	color: gold;
+	display: inline;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+.main-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.redes{
+	margin-top: 20px;
+}
+.email{
+	background-color: white;
+	padding: 5px;
+	height: 50px;
+	width: 250px;
+	border-radius: 10px;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+.social-link.twitter {
+  background-image: url('images/twitter.svg');
+}
+.social-link.facebook {
+  background-image: url('images/facebook.svg');
+}
+.social-link.github {
+  background-image: url('images/github.svg');
+}
+.social-link.linkedin {
+  background-image: url('images/linkedin.png');
 }
