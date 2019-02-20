@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+	background-color: #570093;
+	font-family: 'Fjalla One', sans-serif;
+
+}
+a{
+	text-decoration: none;
+}
+.nav-main{
+	background-color: #3E0068;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.nav-main p {
+	font-size: 25px;
+	margin: 0 0 0 15px;
+	color: white;
+}
+
+.options{
+	height: inherit;
+	color: white;
+	display: flex;
+	align-items: center;
+	margin: 0 15px 0 0;
+	
+}
+
+.options a{
+	color: white;
+	margin: 0px 10px;
+	
+}
+.main{
+	width: 100%;
+	height: 400px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.main-text{
+	width: 30%;
+
+}
+.section{
+	width: 100%;
+	
+	display: block;
+	padding: 10px 30px;
+}
+.section-2{
+	width: 100%;
+	height: 100px;
+	display: block;
+	padding: 10px 30px;
+	background-color: #3E0068;
+}
+.section-inf{
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.section-item{
+	height: 300px;
+	width: 400px;
+	background-color: white;
+	border-radius:10px;
+	margin: 10px 10px;
+	display: flex;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+}
+#android{
+	background-image: url('background.jpg');
+}
+#web{
+	background-image: url('background2.jpg');
+}
+#multi{
+	background-image: url('background3.jpg');
+}
+#desing{
+	background-image: url('background4.jpg');
+}
+.item-inf{
+	height: 200px; 
+	width: 90%;
+	background-color: white;
+	z-index: 100;
+	align-self: flex-end;
+	border-radius: 10px;
+	text-align: center;
+}
+.item-inf h4{
+	font-size: 20px;
+}
+
+
+.gold {
+	color: gold;
+	display: inline;
+	text-align: left;
+}
